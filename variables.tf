@@ -1,3 +1,5 @@
+# Copyright IBM Corp. 2017, 2018
+
 variable "create_lc" {
   description = "Whether to create launch configuration"
   default     = true

@@ -1,3 +1,5 @@
+# Copyright IBM Corp. 2017, 2018
+
 locals {
   tags_asg_format = ["${null_resource.tags_as_list_of_maps.*.triggers}"]
 }

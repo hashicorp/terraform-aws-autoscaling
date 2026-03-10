@@ -1,3 +1,5 @@
+# Copyright IBM Corp. 2017, 2018
+
 output "this_launch_configuration_id" {
   description = "The ID of the launch configuration"
   value       = "${module.example.this_launch_configuration_id}"

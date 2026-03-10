@@ -1,3 +1,5 @@
+# Copyright IBM Corp. 2017, 2018
+
 # Launch configuration
 output "this_launch_configuration_id" {
   description = "The ID of the launch configuration"

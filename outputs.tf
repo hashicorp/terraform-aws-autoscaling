@@ -1,3 +1,5 @@
+# Copyright IBM Corp. 2017, 2018
+
 output "this_launch_configuration_id" {
   description = "The ID of the launch configuration"
   value       = "${var.launch_configuration == "" && var.create_lc ? element(concat(aws_launch_configuration.this.*.id, list("")), 0) : var.launch_configuration}"

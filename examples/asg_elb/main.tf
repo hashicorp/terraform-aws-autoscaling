@@ -1,3 +1,5 @@
+# Copyright IBM Corp. 2017, 2018
+
 provider "aws" {
   region = "eu-west-1"
 }
